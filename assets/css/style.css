@@ -1,7 +1,16 @@
 .conteiner{
     margin-top: 625px 375px 701px;
-}
+};
 .text{
+    display: inline-flex;
+    height: 76px;
+    padding: 0px 70px 0px 30px;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.00) 100%), #EEC044;
+};
+p{
     display: flex;
     width: 118.443px;
     height: 19px;
@@ -13,4 +22,25 @@
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+.content{
+    width: 270px;
+    height: 168px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #ECE7E2;
+}
+p{
+    display: flex;
+    width: 51.045px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #1F1E17;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
 }
