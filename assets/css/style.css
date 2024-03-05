@@ -1,15 +1,36 @@
-.conteiner{
-    margin-top: 625px 375px 701px;
-};
-.text{
-    display: inline-flex;
-    height: 76px;
-    padding: 0px 70px 0px 30px;
-    align-items: center;
-    flex-shrink: 0;
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: 625px 375px 701px;
+}
+
+.sidebar {
+    width: 270px;
+    border: 1px solid black;
+}
+.input {
     border-radius: 10px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.00) 100%), #EEC044;
-};
+    padding-left: 30px;
+    padding-right: 70px;
+    width: 100%;
+    height: 76px;
+    border: none;
+    color: white;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color: white;
+ }
+
+.input:focus {
+    outline: none;
+}
+
 p{
     display: flex;
     width: 118.443px;
@@ -44,7 +65,7 @@ h1{
     font-weight: 800;
     line-height: 30px;
 }
-p{
+.price{
     display: flex;
     width: 22.472px;
     height: 40px;
