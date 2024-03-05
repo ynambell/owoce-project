@@ -30,7 +30,7 @@ p{
     border-radius: 10px;
     border: 1px solid #ECE7E2;
 }
-p{
+h1{
     display: flex;
     width: 51.045px;
     height: 30px;
@@ -43,4 +43,18 @@ p{
     font-style: normal;
     font-weight: 800;
     line-height: 30px;
+}
+p{
+    display: flex;
+    width: 22.472px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #878680;
+    font-family: Manrope;
+    font-size: 12.3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
 }
