@@ -12,6 +12,7 @@
 .sidebar {
     width: 270px;
     border: 1px solid black;
+
 }
 .input {
     border-radius: 10px;
@@ -22,8 +23,9 @@
     height: 76px;
     border: none;
     color: white;
+
 }
-::-webkit-input-placeholder { 
+::-webkit-input-placeholder {
     color: white;
  }
 
@@ -31,20 +33,9 @@
     outline: none;
 }
 
-p{
-    display: flex;
-    width: 118.443px;
-    height: 19px;
-    flex-direction: column;
-    justify-content: center;
-    color: #FFF;
-    font-family: Manrope;
-    font-size: 14px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-}
-.content{
+
+.blok-9{
+ 
     width: 270px;
     height: 168px;
     flex-shrink: 0;
@@ -67,6 +58,10 @@ h1{
 }
 .price{
     display: flex;
+
+}
+p{
+    display: flex;
     width: 22.472px;
     height: 40px;
     flex-direction: column;
@@ -78,4 +73,21 @@ h1{
     font-style: normal;
     font-weight: 500;
     line-height: 40px;
+}
+h4{
+    display: flex;
+    width: 38.727px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    border-radius: 5px;
+    background: #4BAF47;
 }
