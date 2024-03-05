@@ -23,7 +23,7 @@
     border: none;
     color: white;
 }
-::-webkit-input-placeholder { /* WebKit browsers */
+::-webkit-input-placeholder { 
     color: white;
  }
 
