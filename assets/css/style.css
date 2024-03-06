@@ -118,3 +118,70 @@ h2{
     height: 38px;
     flex-shrink: 0;
 }
+.content{
+    display: flex;
+    width: 870px;
+    height: 1365.42px;
+    flex-shrink: 0;
+}
+.text.p{
+    display: flex;
+    width: 206.991px;
+    height: 33.75px;
+    color: #878680;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.75px;
+}
+.input2{
+    display: flex;
+    width: 270px;
+    height: 76px;
+    padding: 36px 21px 30px 239px;
+
+}
+h2{
+    display: flex;
+    width: 74.725px;
+    height: 30px;
+    color: #1F1E17;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+.kartina{
+   
+    width: 269.97px;
+    height: 299.14px;
+    flex-shrink: 0;
+    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
+}
+h2{
+    display: flex;
+    width: 74.725px;
+    height: 30px;
+    color: #1F1E17;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+p{
+    display: flex;
+    width: 56.262px;
+    height: 28px;
+    color: #4BAF47;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
