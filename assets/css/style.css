@@ -1,5 +1,91 @@
 @import url('./font.css');
 
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
+}
+
 .wrapper{
   font-family: 'Manrope' , sans-serif;
+}
+
+.container{
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.top-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top-header_icon{
+  display: flex;
+  align-items: center;
+}
+
+.top-header_icon a{
+  margin: 0 5px;
+  border-radius: 20px;
+  padding: 13px;
+  background: #F8F7F0;
+  width: 14px;
+}
+
+.top-header_call{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.top-header span{
+  color: #878680;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.top-header h1{
+  color: #1F1E17;
+  font-family: Manrope;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.top-header_email{
+  border-left: 1px solid #E4E2D7;
+  padding: 22px;
+}
+
+.top-header_adress{
+  border-left: 1px solid #E4E2D7;
+  padding: 22px;
+}
+
+.middle-header_bg{
+  background-color: #c9c9c950;
+}
+
+.middle-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.nav_linlInner{
+  display: none;
+}
+
+.active{
+  display: block;
 }
