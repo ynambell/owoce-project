@@ -66,7 +66,7 @@
 }
 
 .middle-header_bg{
-  background-color: #c9c9c950;
+  background-color: #F8F7F0;
 }
 
 .middle-header{
@@ -82,10 +82,33 @@
   padding: 30px;
 }
 
+.nav_link{
+  padding: 0 15px;
+}
+
 .nav_linlInner{
   display: none;
 }
 
 .active{
   display: block;
+  position: absolute;
+  background: azure;
+  padding: 30px;
+  border-radius: 20px;
+  margin-top: 8px;
+}
+
+.nav_link_arrow{
+  font-size: 12px;
+}
+
+.nav_card{
+  display: flex;
+  align-items: center;
+  border-left: 1px solid #E4E2D7;
+}
+
+.nav_card a {
+  padding: 15px;
 }
