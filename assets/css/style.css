@@ -112,3 +112,14 @@
 .nav_card a {
   padding: 15px;
 }
+
+.upper-header_bg{
+  background-image: url('../img/elements.png');
+  min-height: 320px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.upper-header_img{
+  margin-top: -30px;
+}
