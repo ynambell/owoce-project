@@ -30,8 +30,7 @@
 }
 ::-webkit-input-placeholder {
     color: white;
- }
-
+}
 .input:focus {
     outline: none;
 }
@@ -182,7 +181,6 @@ h2{
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    background: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
 }
 .kartina img {
     width: 269px;
