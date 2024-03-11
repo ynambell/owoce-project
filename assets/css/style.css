@@ -1,6 +1,246 @@
 @import url('./font.css');
 
 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    gap: 30px;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+}
+
+.sidebar {
+    gap: 30px;
+    width: 270px;
+    border: 1px solid black;
+
+}
+.input {
+    border-radius: 10px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 255, 255, 0.00) 100%), #EEC044;
+    padding-left: 30px;
+    padding-right: 70px;
+    width: 100%;
+    height: 76px;
+    border: none;
+    color: white;
+
+}
+::-webkit-input-placeholder {
+    color: white;
+}
+.input:focus {
+    outline: none;
+}
+
+
+.blok-9{
+    padding: 23px 31px 33px;
+    width: 270px;
+    height: 168px;
+    border-radius: 10px;
+    border: 1px solid #ECE7E2;
+}
+h1{
+    display: flex;
+    width: 51.045px;
+    height: 30px;
+    color: #1F1E17;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+.price-wrapp {
+    display: flex;
+    justify-content: space-between;
+}
+.price{
+    display: flex;
+    gap: 15px;
+}
+p{
+    display: flex;
+    width: 22.472px;
+    height: 40px;
+    color: #878680;
+    font-family: Manrope;
+    font-size: 12.3px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+button{
+    display: flex;
+    width: 38.727px;
+    height: 40px;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    border-radius: 5px;
+    background: #4BAF47;
+
+}
+.blok-11{
+    width: 270px;
+    height: 305px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    border: 1px solid #ECE7E2;
+    padding: 23px 31px;
+}
+h2{
+    display: flex;
+    width: 109.679px;
+    height: 30px;
+    color: #1F1E17;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+.blok-11.p{
+    padding: 24px 0;
+    display: flex;
+    width: 98.902px;
+    height: 20px;
+    color: #878680;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+.img{
+    display: flex;
+    width: 6.25px;
+    height: 38px;
+    flex-shrink: 0;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.text p{
+    display: flex;
+    width: 206.991px;
+    height: 33.75px;
+    color: #878680;
+    font-family: Manrope;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 33.75px;
+}
+.input2{
+    display: flex;
+    width: 270px;
+    height: 76px;
+    padding: 36px 21px 30px 239px;
+
+}
+h2{
+    display: flex;
+    width: 74.725px;
+    height: 30px;
+    color: #1F1E17;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+}
+.filter-wrapp{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.filter-wrapp img {
+    max-width: 208px;
+}
+.kartina{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+h2{
+    display: flex;
+    width: 74.725px;
+    height: 30px;
+    color: #1F1E17;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 30px;
+}
+.paragraf{
+
+    width: 56.262px;
+    height: 28px;
+    color: #4BAF47;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.category {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.span{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.num{
+    display: flex;
+    width: 7.114px;
+    height: 40px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+}
+
+
+*{
     margin: 0;
     padding: 0;
     text-decoration: none;

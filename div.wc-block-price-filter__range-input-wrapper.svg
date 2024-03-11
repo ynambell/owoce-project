@@ -1,0 +1,20 @@
+<svg width="212" height="17" viewBox="0 0 212 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="div.wc-block-price-filter__range-input-wrapper">
+<rect x="2" y="5.75" width="208" height="5" rx="2.5" fill="#F8F7F0"/>
+<rect id="::before" opacity="0.2" x="2" y="5.75" width="208" height="5" fill="#878680"/>
+<g id="div.wc-block-price-filter__range-input-progress">
+<rect x="2" y="5.75" width="208" height="5" fill="#F8F7F0"/>
+<rect x="2" y="5.75" width="208" height="5" fill="url(#paint0_linear_1_21)"/>
+</g>
+<rect id="Input - Filter products by maximum price" x="197" y="1.25" width="14" height="14" rx="7" fill="white" stroke="#1E1E1E" stroke-width="2"/>
+<rect id="Input - Filter products by minimum price" x="1" y="1.25" width="14" height="14" rx="7" fill="white" stroke="#1E1E1E" stroke-width="2"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_1_21" x1="2" y1="8.25" x2="210" y2="8.25" gradientUnits="userSpaceOnUse">
+<stop stop-opacity="0"/>
+<stop stop-color="#EEC044"/>
+<stop offset="1" stop-color="#EEC044"/>
+<stop offset="1" stop-opacity="0"/>
+</linearGradient>
+</defs>
+</svg>
