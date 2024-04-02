@@ -130,20 +130,20 @@
     margin-top: -30px;
 }
 
-.container {
+.mainContainer {
     display: flex;
     gap: 30px;
     width: 100%;
     padding: 30px;
 }
 
-.sidebar {
+.mainSidebar {
     gap: 30px;
     width: 270px;
     border: 1px solid black;
 }
 
-.input {
+.mainInput {
     width: 100%;
     height: 76px;
     padding-right: 70px;
@@ -154,15 +154,15 @@
     border-radius: 10px;
 }
 
-::-webkit-input-placeholder {
+::-webkit-mainInput-placeholder {
     color: white;
 }
 
-.input:focus {
+.mainInput:focus {
     outline: none;
 }
 
-.blok-9 {
+.mainBlok-9 {
     width: 270px;
     height: 168px;
     padding: 23px 31px 33px;
@@ -182,12 +182,12 @@ h1 {
     line-height: 30px;
 }
 
-.price-wrapp {
+.mainPrice-wrapp {
     display: flex;
     justify-content: space-between;
 }
 
-.price {
+.mainPrice {
     display: flex;
     gap: 15px;
 }
@@ -219,7 +219,7 @@ button {
     border-radius: 5px;
 }
 
-.blok-11 {
+.mainBlok-11 {
     flex-shrink: 0;
     width: 270px;
     height: 305px;
@@ -241,7 +241,7 @@ h2 {
     text-align: center;
 }
 
-.blok-11.p {
+.mainBlok-11.p {
     display: flex;
     width: 98.902px;
     height: 20px;
@@ -261,12 +261,12 @@ h2 {
     height: 38px;
 }
 
-.content {
+.mainContent {
     display: flex;
     flex-direction: column;
 }
 
-.text {
+.mainText {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -291,23 +291,23 @@ h2 {
     padding: 36px 21px 30px 239px;
 }
 
-.filter-wrapp {
+.mainFilter-wrapp {
     display: flex;
     flex-direction: column;
 }
 
-.filter-wrapp img {
+.mainFilter-wrapp img {
     max-width: 208px;
 }
 
-.kartina {
+.mainKartina {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     width: 100%;
 }
 
-.paragraf {
+.mainParagraf {
     width: 56.262px;
     height: 28px;
     color: #4baf47;
@@ -319,19 +319,19 @@ h2 {
     text-align: center;
 }
 
-.category {
+.mainCategory {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.span {
+.mainSpan {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.num {
+.mainNum {
     display: flex;
     flex-direction: column;
     flex-shrink: 0;
